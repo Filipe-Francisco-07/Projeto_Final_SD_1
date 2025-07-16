@@ -66,7 +66,7 @@ export default function Graficos() {
   return (
     <div style={{ width: "100%", padding: "2rem", color: "white", display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "2rem" }}>
       <h2 style={{ width: "100%", textAlign: "center", marginBottom: "2rem" }}>
-        📊 Gráficos e Estatísticas
+        Gráficos e Estatísticas
       </h2>
 
       <ResponsiveContainer width="45%" height={300}>
