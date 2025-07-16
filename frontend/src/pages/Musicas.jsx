@@ -54,7 +54,7 @@ export default function Musicas({ onPlay, onBuy, onRegister, onLicense, refresh 
         textAlign: "left"
       }}>
         <h2 style={{ fontSize: "1.8rem", marginBottom: "1rem", textAlign: "center" }}>
-          <span role="img" aria-label="musica">🎵</span> Músicas Registradas
+          <span role="img" aria-label="musica"></span> Músicas Registradas
         </h2>
         {musicas.map((m) => {
           const valorMultiplicador = multiplicadoresSelecionados[m._id] || "x1";
